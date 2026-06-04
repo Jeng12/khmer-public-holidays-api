@@ -1,5 +1,9 @@
 # Khmer Public Holidays API
 
+**🌐 Live:** https://khmer-public-holidays-api.vercel.app — docs at
+[`/docs`](https://khmer-public-holidays-api.vercel.app/docs) ·
+holidays at [`/holidays`](https://khmer-public-holidays-api.vercel.app/holidays)
+
 A small REST API for Cambodian public holidays, built with **FastAPI**. Each
 holiday carries both a Khmer (`name_kh`) and an English (`name_en`) name. Data
 is stored in a static JSON file (`data/holidays.json`) and changes are persisted

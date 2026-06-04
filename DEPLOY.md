@@ -1,4 +1,34 @@
-# Deploying to Render (free)
+# Deploying
+
+## Currently deployed on Vercel (free)
+
+This project is live at **https://khmer-public-holidays-api.vercel.app**.
+
+It is configured for Vercel's Python serverless runtime:
+
+| File           | Purpose                                                        |
+|----------------|----------------------------------------------------------------|
+| `api/index.py` | Serverless entrypoint that exposes the FastAPI `app`.          |
+| `vercel.json`  | Builds `api/index.py` with `@vercel/python` and routes all paths to it. |
+
+The app detects Vercel at runtime (the `VERCEL` env var) and uses
+`/tmp/holidays.json` for storage, since Vercel's filesystem is read-only except
+for `/tmp`. The seed data is copied there on first use.
+
+### Redeploy
+
+```powershell
+vercel deploy --prod --yes
+```
+
+> **Free-tier note:** `/tmp` is per-instance and ephemeral, so holidays you
+> create / update / delete are not kept permanently — reads of the 16 seeded
+> holidays always work. For durable writes, switch `storage.py` to a hosted
+> database.
+
+---
+
+# Deploying to Render (free, alternative)
 
 This API is configured to deploy on [Render](https://render.com) using the
 free **Web Service** tier. The config lives in [`render.yaml`](render.yaml).
