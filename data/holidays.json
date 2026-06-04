@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name_kh": "ទិវាចូលឆ្នាំសាកល",
+    "name_en": "International New Year's Day",
+    "date": "2026-01-01",
+    "type": "fixed",
+    "description": "Start of the Gregorian calendar year.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 2,
+    "name_kh": "ទិវាជ័យជម្នះលើរបបប្រល័យពូជសាសន៍",
+    "name_en": "Victory over Genocide Day",
+    "date": "2026-01-07",
+    "type": "national",
+    "description": "Commemorates the end of the Khmer Rouge regime in 1979.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 3,
+    "name_kh": "ទិវានារីអន្តរជាតិ",
+    "name_en": "International Women's Day",
+    "date": "2026-03-08",
+    "type": "international",
+    "description": "Celebrates the social, economic, and cultural achievements of women.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 4,
+    "name_kh": "ពិធីបុណ្យចូលឆ្នាំខ្មែរ",
+    "name_en": "Khmer New Year (Day 1)",
+    "date": "2026-04-14",
+    "type": "traditional",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 1 of 3.",
+    "is_fixed": false,
+    "notes": "Celebrated over three days, 14-16 April."
+  },
+  {
+    "id": 5,
+    "name_kh": "ពិធីបុណ្យចូលឆ្នាំខ្មែរ",
+    "name_en": "Khmer New Year (Day 2)",
+    "date": "2026-04-15",
+    "type": "traditional",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 2 of 3.",
+    "is_fixed": false,
+    "notes": "Celebrated over three days, 14-16 April."
+  },
+  {
+    "id": 6,
+    "name_kh": "ពិធីបុណ្យចូលឆ្នាំខ្មែរ",
+    "name_en": "Khmer New Year (Day 3)",
+    "date": "2026-04-16",
+    "type": "traditional",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 3 of 3.",
+    "is_fixed": false,
+    "notes": "Celebrated over three days, 14-16 April."
+  },
+  {
+    "id": 7,
+    "name_kh": "ទិវាពលកម្មអន្តរជាតិ",
+    "name_en": "International Labour Day",
+    "date": "2026-05-01",
+    "type": "international",
+    "description": "Celebrates workers and the labour movement.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 8,
+    "name_kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្មព្រះមហាក្សត្រ",
+    "name_en": "King Norodom Sihamoni's Birthday",
+    "date": "2026-05-14",
+    "type": "royal",
+    "description": "Birthday of His Majesty King Norodom Sihamoni.",
+    "is_fixed": false,
+    "notes": "Observed 13-15 May."
+  },
+  {
+    "id": 9,
+    "name_kh": "ពិធីបុណ្យវិសាខបូជា",
+    "name_en": "Visak Bochea Day",
+    "date": "2026-05-31",
+    "type": "religious",
+    "description": "Commemorates the birth, enlightenment, and passing of the Buddha.",
+    "is_fixed": false,
+    "notes": "Date follows the lunar calendar and changes each year."
+  },
+  {
+    "id": 10,
+    "name_kh": "ព្រះរាជពិធីច្រត់ព្រះនង្គ័ល",
+    "name_en": "Royal Ploughing Ceremony",
+    "date": "2026-05-04",
+    "type": "royal",
+    "description": "Royal ceremony marking the start of the rice-growing season.",
+    "is_fixed": false,
+    "notes": "Date follows the lunar calendar and changes each year."
+  },
+  {
+    "id": 11,
+    "name_kh": "ទិវាប្រកាសរដ្ឋធម្មនុញ្ញ",
+    "name_en": "Constitution Day",
+    "date": "2026-09-24",
+    "type": "national",
+    "description": "Commemorates the promulgation of the Cambodian constitution in 1993.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 12,
+    "name_kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+    "name_en": "Pchum Ben Day",
+    "date": "2026-10-11",
+    "type": "religious",
+    "description": "Ancestors' Day, a 15-day religious festival honouring deceased relatives.",
+    "is_fixed": false,
+    "notes": "Public holiday is observed over three days; date follows the lunar calendar."
+  },
+  {
+    "id": 13,
+    "name_kh": "ទិវាប្រារព្ធពិធីគោរពវិញ្ញាណក្ខន្ធព្រះបរមរតនកោដ្ឋ",
+    "name_en": "Commemoration Day of King Father Norodom Sihanouk",
+    "date": "2026-10-15",
+    "type": "royal",
+    "description": "Remembrance of the late King Father Norodom Sihanouk.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 14,
+    "name_kh": "ព្រះរាជពិធីគ្រងព្រះបរមរាជសម្បត្តិ",
+    "name_en": "King Norodom Sihamoni's Coronation Day",
+    "date": "2026-10-29",
+    "type": "royal",
+    "description": "Anniversary of the coronation of His Majesty King Norodom Sihamoni in 2004.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 15,
+    "name_kh": "ទិវាបុណ្យឯករាជ្យជាតិ",
+    "name_en": "Independence Day",
+    "date": "2026-11-09",
+    "type": "national",
+    "description": "Commemorates Cambodia's independence from France in 1953.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 16,
+    "name_kh": "ព្រះរាជពិធីបុណ្យអុំទូក បណ្តែតប្រទីប និងសំពះព្រះខែអកអំបុក",
+    "name_en": "Water Festival (Bon Om Touk)",
+    "date": "2026-11-23",
+    "type": "traditional",
+    "description": "Boat racing festival marking the reversal of the Tonle Sap river flow.",
+    "is_fixed": false,
+    "notes": "Celebrated over three days; date follows the lunar calendar."
+  }
+]
