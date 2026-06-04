@@ -15,11 +15,21 @@ from .models import Holiday, HolidayCreate, HolidayUpdate
 # The bundled, read-only seed data shipped with the app (root/data/holidays.json).
 SEED_FILE = Path(__file__).resolve().parent.parent / "data" / "holidays.json"
 
-# The file the app actually reads from and writes to. On hosts with a read-only
-# filesystem (e.g. Vercel) set HOLIDAYS_DATA_FILE to a writable path like
-# /tmp/holidays.json; the seed is copied there on first use. Locally it defaults
-# to the bundled file so edits persist in the repo data file.
-DATA_FILE = Path(os.environ.get("HOLIDAYS_DATA_FILE", str(SEED_FILE)))
+# The file the app actually reads from and writes to.
+#  - HOLIDAYS_DATA_FILE, if set, always wins.
+#  - On Vercel (which sets VERCEL=1 and has a read-only filesystem) we use
+#    /tmp/holidays.json; the seed is copied there on first use.
+#  - Otherwise we use the bundled file so local edits persist in the repo.
+def _resolve_data_file() -> Path:
+    explicit = os.environ.get("HOLIDAYS_DATA_FILE")
+    if explicit:
+        return Path(explicit)
+    if os.environ.get("VERCEL"):
+        return Path("/tmp/holidays.json")
+    return SEED_FILE
+
+
+DATA_FILE = _resolve_data_file()
 
 
 class DuplicateDateError(ValueError):
