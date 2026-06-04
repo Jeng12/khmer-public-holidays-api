@@ -4,7 +4,7 @@
     "name_kh": "ទិវាចូលឆ្នាំសាកល",
     "name_en": "International New Year's Day",
     "date": "2026-01-01",
-    "type": "fixed",
+    "type": "international",
     "description": "Start of the Gregorian calendar year.",
     "is_fixed": true,
     "notes": null
@@ -35,9 +35,9 @@
     "name_en": "Khmer New Year (Day 1)",
     "date": "2026-04-14",
     "type": "traditional",
-    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 1 of 3.",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 1 of 3 (Maha Sangkran).",
     "is_fixed": false,
-    "notes": "Celebrated over three days, 14-16 April."
+    "notes": "Public holiday 14-16 April; the dates are set astrologically and can shift by a day."
   },
   {
     "id": 5,
@@ -45,9 +45,9 @@
     "name_en": "Khmer New Year (Day 2)",
     "date": "2026-04-15",
     "type": "traditional",
-    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 2 of 3.",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 2 of 3 (Virak Vanabat).",
     "is_fixed": false,
-    "notes": "Celebrated over three days, 14-16 April."
+    "notes": "Public holiday 14-16 April; the dates are set astrologically and can shift by a day."
   },
   {
     "id": 6,
@@ -55,9 +55,9 @@
     "name_en": "Khmer New Year (Day 3)",
     "date": "2026-04-16",
     "type": "traditional",
-    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 3 of 3.",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 3 of 3 (Virak Loeung Sak).",
     "is_fixed": false,
-    "notes": "Celebrated over three days, 14-16 April."
+    "notes": "Public holiday 14-16 April; the dates are set astrologically and can shift by a day."
   },
   {
     "id": 7,
@@ -67,40 +67,50 @@
     "type": "international",
     "description": "Celebrates workers and the labour movement.",
     "is_fixed": true,
-    "notes": null
+    "notes": "In 2026 this falls on the same day as Visak Bochea Day."
   },
   {
     "id": 8,
-    "name_kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្មព្រះមហាក្សត្រ",
-    "name_en": "King Norodom Sihamoni's Birthday",
-    "date": "2026-05-14",
-    "type": "royal",
-    "description": "Birthday of His Majesty King Norodom Sihamoni.",
-    "is_fixed": false,
-    "notes": "Observed 13-15 May."
-  },
-  {
-    "id": 9,
     "name_kh": "ពិធីបុណ្យវិសាខបូជា",
     "name_en": "Visak Bochea Day",
-    "date": "2026-05-31",
+    "date": "2026-05-01",
     "type": "religious",
     "description": "Commemorates the birth, enlightenment, and passing of the Buddha.",
     "is_fixed": false,
-    "notes": "Date follows the lunar calendar and changes each year."
+    "notes": "Lunar date; in 2026 it falls on 1 May, the same day as International Labour Day."
   },
   {
-    "id": 10,
+    "id": 9,
     "name_kh": "ព្រះរាជពិធីច្រត់ព្រះនង្គ័ល",
     "name_en": "Royal Ploughing Ceremony",
-    "date": "2026-05-04",
+    "date": "2026-05-05",
     "type": "royal",
     "description": "Royal ceremony marking the start of the rice-growing season.",
     "is_fixed": false,
     "notes": "Date follows the lunar calendar and changes each year."
   },
   {
+    "id": 10,
+    "name_kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្ម ព្រះករុណា ព្រះបាទសម្ដេចព្រះបរមនាថ នរោត្តម សីហមុនី",
+    "name_en": "King Norodom Sihamoni's Birthday",
+    "date": "2026-05-14",
+    "type": "royal",
+    "description": "Birthday of His Majesty King Norodom Sihamoni, born in 1953.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
     "id": 11,
+    "name_kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្ម សម្ដេចព្រះមហាក្សត្រី នរោត្តម មុនិនាថ សីហនុ",
+    "name_en": "Queen Mother's Birthday",
+    "date": "2026-06-18",
+    "type": "royal",
+    "description": "Birthday of Her Majesty Queen Mother Norodom Monineath Sihanouk.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 12,
     "name_kh": "ទិវាប្រកាសរដ្ឋធម្មនុញ្ញ",
     "name_en": "Constitution Day",
     "date": "2026-09-24",
@@ -110,27 +120,47 @@
     "notes": null
   },
   {
-    "id": 12,
+    "id": 13,
     "name_kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
-    "name_en": "Pchum Ben Day",
-    "date": "2026-10-11",
+    "name_en": "Pchum Ben (Day 1)",
+    "date": "2026-10-10",
     "type": "religious",
-    "description": "Ancestors' Day, a 15-day religious festival honouring deceased relatives.",
+    "description": "Ancestors' Day, day 1 of 3, honouring deceased relatives.",
     "is_fixed": false,
-    "notes": "Public holiday is observed over three days; date follows the lunar calendar."
+    "notes": "Date follows the lunar calendar and changes each year."
   },
   {
-    "id": 13,
-    "name_kh": "ទិវាប្រារព្ធពិធីគោរពវិញ្ញាណក្ខន្ធព្រះបរមរតនកោដ្ឋ",
+    "id": 14,
+    "name_kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+    "name_en": "Pchum Ben (Day 2)",
+    "date": "2026-10-11",
+    "type": "religious",
+    "description": "Ancestors' Day, day 2 of 3, honouring deceased relatives.",
+    "is_fixed": false,
+    "notes": "Date follows the lunar calendar and changes each year."
+  },
+  {
+    "id": 15,
+    "name_kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+    "name_en": "Pchum Ben (Day 3)",
+    "date": "2026-10-12",
+    "type": "religious",
+    "description": "Ancestors' Day, day 3 of 3, honouring deceased relatives.",
+    "is_fixed": false,
+    "notes": "Date follows the lunar calendar and changes each year."
+  },
+  {
+    "id": 16,
+    "name_kh": "ទិវាប្រារព្ធពិធីគោរពព្រះវិញ្ញាណក្ខន្ធ ព្រះបរមរតនកោដ្ឋ",
     "name_en": "Commemoration Day of King Father Norodom Sihanouk",
     "date": "2026-10-15",
     "type": "royal",
-    "description": "Remembrance of the late King Father Norodom Sihanouk.",
+    "description": "Remembrance of the late King Father Norodom Sihanouk, who passed away in 2012.",
     "is_fixed": true,
     "notes": null
   },
   {
-    "id": 14,
+    "id": 17,
     "name_kh": "ព្រះរាជពិធីគ្រងព្រះបរមរាជសម្បត្តិ",
     "name_en": "King Norodom Sihamoni's Coronation Day",
     "date": "2026-10-29",
@@ -140,7 +170,7 @@
     "notes": null
   },
   {
-    "id": 15,
+    "id": 18,
     "name_kh": "ទិវាបុណ្យឯករាជ្យជាតិ",
     "name_en": "Independence Day",
     "date": "2026-11-09",
@@ -150,13 +180,263 @@
     "notes": null
   },
   {
-    "id": 16,
+    "id": 19,
     "name_kh": "ព្រះរាជពិធីបុណ្យអុំទូក បណ្តែតប្រទីប និងសំពះព្រះខែអកអំបុក",
-    "name_en": "Water Festival (Bon Om Touk)",
+    "name_en": "Water Festival (Day 1)",
     "date": "2026-11-23",
     "type": "traditional",
-    "description": "Boat racing festival marking the reversal of the Tonle Sap river flow.",
+    "description": "Boat-racing festival (Bon Om Touk), day 1 of 3, marking the reversal of the Tonle Sap river flow.",
     "is_fixed": false,
-    "notes": "Celebrated over three days; date follows the lunar calendar."
+    "notes": "Date follows the lunar calendar and changes each year."
+  },
+  {
+    "id": 20,
+    "name_kh": "ព្រះរាជពិធីបុណ្យអុំទូក បណ្តែតប្រទីប និងសំពះព្រះខែអកអំបុក",
+    "name_en": "Water Festival (Day 2)",
+    "date": "2026-11-24",
+    "type": "traditional",
+    "description": "Boat-racing festival (Bon Om Touk), day 2 of 3, featuring illuminated floats (Loy Pratip).",
+    "is_fixed": false,
+    "notes": "Date follows the lunar calendar and changes each year."
+  },
+  {
+    "id": 21,
+    "name_kh": "ព្រះរាជពិធីបុណ្យអុំទូក បណ្តែតប្រទីប និងសំពះព្រះខែអកអំបុក",
+    "name_en": "Water Festival (Day 3)",
+    "date": "2026-11-25",
+    "type": "traditional",
+    "description": "Boat-racing festival (Bon Om Touk), day 3 of 3, including 'Ak Ambok' (pounded rice).",
+    "is_fixed": false,
+    "notes": "Date follows the lunar calendar and changes each year."
+  },
+  {
+    "id": 22,
+    "name_kh": "ទិវាសន្តិភាពនៅកម្ពុជា",
+    "name_en": "Peace Day",
+    "date": "2026-12-29",
+    "type": "national",
+    "description": "Peace Day (Win-Win Day), commemorating the end of the civil war in 1998.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 23,
+    "name_kh": "ទិវាចូលឆ្នាំសាកល",
+    "name_en": "International New Year's Day",
+    "date": "2027-01-01",
+    "type": "international",
+    "description": "Start of the Gregorian calendar year.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 24,
+    "name_kh": "ទិវាជ័យជម្នះលើរបបប្រល័យពូជសាសន៍",
+    "name_en": "Victory over Genocide Day",
+    "date": "2027-01-07",
+    "type": "national",
+    "description": "Commemorates the end of the Khmer Rouge regime in 1979.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 25,
+    "name_kh": "ទិវានារីអន្តរជាតិ",
+    "name_en": "International Women's Day",
+    "date": "2027-03-08",
+    "type": "international",
+    "description": "Celebrates the social, economic, and cultural achievements of women.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 26,
+    "name_kh": "ពិធីបុណ្យចូលឆ្នាំខ្មែរ",
+    "name_en": "Khmer New Year (Day 1)",
+    "date": "2027-04-14",
+    "type": "traditional",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 1 of 3 (Maha Sangkran).",
+    "is_fixed": false,
+    "notes": "Public holiday 14-16 April; the dates are set astrologically and can shift by a day."
+  },
+  {
+    "id": 27,
+    "name_kh": "ពិធីបុណ្យចូលឆ្នាំខ្មែរ",
+    "name_en": "Khmer New Year (Day 2)",
+    "date": "2027-04-15",
+    "type": "traditional",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 2 of 3 (Virak Vanabat).",
+    "is_fixed": false,
+    "notes": "Public holiday 14-16 April; the dates are set astrologically and can shift by a day."
+  },
+  {
+    "id": 28,
+    "name_kh": "ពិធីបុណ្យចូលឆ្នាំខ្មែរ",
+    "name_en": "Khmer New Year (Day 3)",
+    "date": "2027-04-16",
+    "type": "traditional",
+    "description": "Cambodian traditional New Year (Choul Chnam Thmey), day 3 of 3 (Virak Loeung Sak).",
+    "is_fixed": false,
+    "notes": "Public holiday 14-16 April; the dates are set astrologically and can shift by a day."
+  },
+  {
+    "id": 29,
+    "name_kh": "ទិវាពលកម្មអន្តរជាតិ",
+    "name_en": "International Labour Day",
+    "date": "2027-05-01",
+    "type": "international",
+    "description": "Celebrates workers and the labour movement.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 30,
+    "name_kh": "ពិធីបុណ្យវិសាខបូជា",
+    "name_en": "Visak Bochea Day",
+    "date": "2027-05-20",
+    "type": "religious",
+    "description": "Commemorates the birth, enlightenment, and passing of the Buddha.",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 31,
+    "name_kh": "ព្រះរាជពិធីច្រត់ព្រះនង្គ័ល",
+    "name_en": "Royal Ploughing Ceremony",
+    "date": "2027-05-24",
+    "type": "royal",
+    "description": "Royal ceremony marking the start of the rice-growing season.",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 32,
+    "name_kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្ម ព្រះករុណា ព្រះបាទសម្ដេចព្រះបរមនាថ នរោត្តម សីហមុនី",
+    "name_en": "King Norodom Sihamoni's Birthday",
+    "date": "2027-05-14",
+    "type": "royal",
+    "description": "Birthday of His Majesty King Norodom Sihamoni, born in 1953.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 33,
+    "name_kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្ម សម្ដេចព្រះមហាក្សត្រី នរោត្តម មុនិនាថ សីហនុ",
+    "name_en": "Queen Mother's Birthday",
+    "date": "2027-06-18",
+    "type": "royal",
+    "description": "Birthday of Her Majesty Queen Mother Norodom Monineath Sihanouk.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 34,
+    "name_kh": "ទិវាប្រកាសរដ្ឋធម្មនុញ្ញ",
+    "name_en": "Constitution Day",
+    "date": "2027-09-24",
+    "type": "national",
+    "description": "Commemorates the promulgation of the Cambodian constitution in 1993.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 35,
+    "name_kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+    "name_en": "Pchum Ben (Day 1)",
+    "date": "2027-09-29",
+    "type": "religious",
+    "description": "Ancestors' Day, day 1 of 3, honouring deceased relatives.",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 36,
+    "name_kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+    "name_en": "Pchum Ben (Day 2)",
+    "date": "2027-09-30",
+    "type": "religious",
+    "description": "Ancestors' Day, day 2 of 3, honouring deceased relatives.",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 37,
+    "name_kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+    "name_en": "Pchum Ben (Day 3)",
+    "date": "2027-10-01",
+    "type": "religious",
+    "description": "Ancestors' Day, day 3 of 3, honouring deceased relatives.",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 38,
+    "name_kh": "ទិវាប្រារព្ធពិធីគោរពព្រះវិញ្ញាណក្ខន្ធ ព្រះបរមរតនកោដ្ឋ",
+    "name_en": "Commemoration Day of King Father Norodom Sihanouk",
+    "date": "2027-10-15",
+    "type": "royal",
+    "description": "Remembrance of the late King Father Norodom Sihanouk, who passed away in 2012.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 39,
+    "name_kh": "ព្រះរាជពិធីគ្រងព្រះបរមរាជសម្បត្តិ",
+    "name_en": "King Norodom Sihamoni's Coronation Day",
+    "date": "2027-10-29",
+    "type": "royal",
+    "description": "Anniversary of the coronation of His Majesty King Norodom Sihamoni in 2004.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 40,
+    "name_kh": "ទិវាបុណ្យឯករាជ្យជាតិ",
+    "name_en": "Independence Day",
+    "date": "2027-11-09",
+    "type": "national",
+    "description": "Commemorates Cambodia's independence from France in 1953.",
+    "is_fixed": true,
+    "notes": null
+  },
+  {
+    "id": 41,
+    "name_kh": "ព្រះរាជពិធីបុណ្យអុំទូក បណ្តែតប្រទីប និងសំពះព្រះខែអកអំបុក",
+    "name_en": "Water Festival (Day 1)",
+    "date": "2027-11-12",
+    "type": "traditional",
+    "description": "Boat-racing festival (Bon Om Touk), day 1 of 3, marking the reversal of the Tonle Sap river flow.",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 42,
+    "name_kh": "ព្រះរាជពិធីបុណ្យអុំទូក បណ្តែតប្រទីប និងសំពះព្រះខែអកអំបុក",
+    "name_en": "Water Festival (Day 2)",
+    "date": "2027-11-13",
+    "type": "traditional",
+    "description": "Boat-racing festival (Bon Om Touk), day 2 of 3, featuring illuminated floats (Loy Pratip).",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 43,
+    "name_kh": "ព្រះរាជពិធីបុណ្យអុំទូក បណ្តែតប្រទីប និងសំពះព្រះខែអកអំបុក",
+    "name_en": "Water Festival (Day 3)",
+    "date": "2027-11-14",
+    "type": "traditional",
+    "description": "Boat-racing festival (Bon Om Touk), day 3 of 3, including 'Ak Ambok' (pounded rice).",
+    "is_fixed": false,
+    "notes": "Provisional lunar date; the official 2027 schedule has not yet been announced."
+  },
+  {
+    "id": 44,
+    "name_kh": "ទិវាសន្តិភាពនៅកម្ពុជា",
+    "name_en": "Peace Day",
+    "date": "2027-12-29",
+    "type": "national",
+    "description": "Peace Day (Win-Win Day), commemorating the end of the civil war in 1998.",
+    "is_fixed": true,
+    "notes": null
   }
 ]
