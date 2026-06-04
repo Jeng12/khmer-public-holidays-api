@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import date
+import datetime as dt
 from enum import Enum
 from typing import Optional
 
@@ -25,7 +25,7 @@ class HolidayBase(BaseModel):
 
     name_kh: str = Field(..., min_length=1, description="Holiday name in Khmer.")
     name_en: str = Field(..., min_length=1, description="Holiday name in English.")
-    date: date = Field(..., description="Holiday date in ISO 8601 (YYYY-MM-DD).")
+    date: dt.date = Field(..., description="Holiday date in ISO 8601 (YYYY-MM-DD).")
     type: HolidayType = Field(
         default=HolidayType.national, description="Category of the holiday."
     )
@@ -56,7 +56,7 @@ class HolidayUpdate(BaseModel):
 
     name_kh: Optional[str] = Field(default=None, min_length=1)
     name_en: Optional[str] = Field(default=None, min_length=1)
-    date: Optional[date] = None
+    date: Optional[dt.date] = None
     type: Optional[HolidayType] = None
     description: Optional[str] = None
     is_fixed: Optional[bool] = None
