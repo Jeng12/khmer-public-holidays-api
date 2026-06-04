@@ -104,9 +104,7 @@ def update_holiday(
     status_code=status.HTTP_204_NO_CONTENT,
     tags=["holidays"],
 )
-def delete_holiday(
-    holiday_id: int, store: HolidayStore = Depends(get_store)
-) -> None:
+def delete_holiday(holiday_id: int, store: HolidayStore = Depends(get_store)):
     """Delete a holiday by id."""
     if not store.delete(holiday_id):
         raise HTTPException(
