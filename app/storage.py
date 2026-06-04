@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import os
+import shutil
 import threading
 from datetime import date
 from pathlib import Path
@@ -10,8 +12,14 @@ from typing import List, Optional
 
 from .models import Holiday, HolidayCreate, HolidayUpdate
 
-# data/holidays.json lives at the project root, one level above app/.
-DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "holidays.json"
+# The bundled, read-only seed data shipped with the app (root/data/holidays.json).
+SEED_FILE = Path(__file__).resolve().parent.parent / "data" / "holidays.json"
+
+# The file the app actually reads from and writes to. On hosts with a read-only
+# filesystem (e.g. Vercel) set HOLIDAYS_DATA_FILE to a writable path like
+# /tmp/holidays.json; the seed is copied there on first use. Locally it defaults
+# to the bundled file so edits persist in the repo data file.
+DATA_FILE = Path(os.environ.get("HOLIDAYS_DATA_FILE", str(SEED_FILE)))
 
 
 class DuplicateDateError(ValueError):
@@ -29,10 +37,18 @@ class HolidayStore:
 
     # ----- persistence helpers -------------------------------------------
     def reload(self) -> None:
-        """Load holidays from disk, creating an empty store if absent."""
+        """Load holidays from disk.
+
+        If the writable data file does not exist yet but a seed file does, copy
+        the seed into place first (used on read-only hosts pointing at /tmp).
+        """
         if not self._data_file.exists():
-            self._holidays = []
-            return
+            if self._data_file != SEED_FILE and SEED_FILE.exists():
+                self._data_file.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(SEED_FILE, self._data_file)
+            else:
+                self._holidays = []
+                return
         raw = json.loads(self._data_file.read_text(encoding="utf-8"))
         self._holidays = [Holiday(**item) for item in raw]
 

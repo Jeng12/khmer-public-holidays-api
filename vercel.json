@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "{app,data}/**"
+    }
+  },
+  "env": {
+    "HOLIDAYS_DATA_FILE": "/tmp/holidays.json"
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}
